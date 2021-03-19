@@ -26,7 +26,7 @@ function fetchVideo() {
     while (main_container.firstChild) {
         main_container.removeChild(main_container.firstChild)
     }
-    fetch("https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyBkoIKYvN0vhw8N8nGMD1WpZq1IiVBVNSM&maxResults=50&type=video&q=" + search.value).then((response) => {
+    fetch("https://www.googleapis.com/youtube/v3/search?part=snippet&key=[YOUR API KEY]&maxResults=50&type=video&q=" + search.value).then((response) => {
 
 
         return response.json();
