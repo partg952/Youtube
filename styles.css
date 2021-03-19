@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+#search{
+    text-align: center;
+}
+body{
+background-image:url(Purplin.jpg);
+background-size:cover;
+background-repeat:repeat;
+}
+
+input{
+    
+background-color:transparent;
+border:2px solid;
+border-color:black;
+margin:20px;
+padding:5px;
+border-radius:5px;
+box-shadow:0px 0px 5px 0px black;
+color:black;
+font-size:15px;
+transition:all 0.3s ease-in-out;
+font-family: 'Ravi Prakash', cursive;;
+font-size:20px;
+}
+input:hover{
+background-color:white;
+border:2px solid;
+border-color:black;
+margin:20px;
+padding:5px;
+border-radius:5px;
+box-shadow:0px 0px 5px 0px black;
+color:black;
+font-size:20px;
+
+
+}
+
+#main-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.class{
+background-color:transparent;
+border:3px solid;
+border-color:black;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 0px 5px 0px black;
+margin:20px;
+font-family:'Ravi Prakash' , cursive;
+font-size:20px;
+}
+
+.search{
+    width: 400px;
+}
